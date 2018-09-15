@@ -9,8 +9,11 @@ L'utilisation de cette commande permet la création d'un fichier nom_du_fichier.
 La compression peut se combiner avec l'archivage (tar). Cela permet de passer d'une hiérarchie à une seule archive.tar qu'on 
 peut compresser avec la commande gzip archive.tar. Cela créer alors un fichier archive.tar.gz qui peut être renommé archive.tgz.
 
+gzip -c mon-fichier > mon_fichier.gz : pour conserver le fichier d'origine et produire un fichier compressé.
 
 gunzip mon_fichier.gz : permet de décompresser les fichiers d'extension .gz. Le fichier mon_fichier.gz est détruit et un fichier mon_fichier est créér.
+
+gunzip -c mon_fichier.gz > mon_fichier : permet de conserver le fichier d'origine et de produire un fichier décompressé. 
 
 zcat mon_fichier.gz : permet d'afficher le contenus décompressés de fichiers compressés.
 
