@@ -18,7 +18,7 @@ Lister le contenu d'une archive: tar tvf archive.tar
 
 Extraire une partie de l'archive: tar xvf archive.tar nom_du_repertoire_a_extraire
 
-
+v: indique qu'on veut le mode mode verbeux qui affiche toutes les opérations effectuées par la commande et liste la hiérarchie de fichier et sous-répertoire parcourus
 t: visualiser le contenu
 x: extraire une archive
 c: créer une archive
