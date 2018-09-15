@@ -1,0 +1,26 @@
+La commande tar permet d'archiver un fichier et/ou dossier dans un seul fichier 
+au format tar.
+
+Cette commande permet aussi d'extraire une archive.
+
+tar ne permet pas de compresser les données.
+
+Cette fonction est utilisée principalement pour la sauvegarde et le transfert de fichiers
+et/ou dossiers
+
+Voici les options les plus courantes de la commande tar:
+
+création d'une archive: tar cvf archive.tar chemin_du_repertoire_existant
+
+Extraction d'une archive dans le répertoire courant : tar xvf archive.tar 
+
+Lister le contenu d'une archive: tar tvf archive.tar
+
+Extraire une partie de l'archive: tar xvf archive.tar nom_du_repertoire_a_extraire
+
+
+t: visualiser le contenu
+x: extraire une archive
+c: créer une archive
+f: le nom de l'archive
+-C: choisir le répertoire de destination de l'archive ou d'extraction
