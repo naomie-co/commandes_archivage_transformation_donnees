@@ -1,0 +1,20 @@
+La compression et la transformation de données : 
+
+La commande gzip permet de compresser des fichiers pour réduire leur taille.
+
+Cette commande s'utilise ainsi: gzip nom_du_fichier
+
+L'utilisation de cette commande permet la création d'un fichier nom_du_fichier.gz et la suppression du fichier nom_du_fichier
+
+La compression peut se combiner avec l'archivage (tar). Cela permet de passer d'une hiérarchie à une seule archive.tar qu'on 
+peut compresser avec la commande gzip archive.tar. Cela créer alors un fichier archive.tar.gz qui peut être renommé archive.tgz.
+
+
+gunzip mon_fichier.gz : permet de décompresser les fichiers d'extension .gz. Le fichier mon_fichier.gz est détruit et un fichier mon_fichier est créér.
+
+zcat mon_fichier.gz : permet d'afficher le contenus décompressés de fichiers compressés.
+
+undecode mon_fichier.txt > mon_fichier.xls 
+uuencode mon_fichier.xls > mon_fichier.txt
+
+Ces commandes permettent de passer d'un format binaire à un format ASCII et vice-versa.
